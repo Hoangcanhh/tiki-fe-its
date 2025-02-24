@@ -1,0 +1,12 @@
+services:
+  backend:
+    build:
+      context: C:\Users\ICT ADMIN\Documents\tiki-be
+    ports:
+      - "5000:5000"
+
+  frontend:
+    build:
+      context: C:\Users\ICT ADMIN\Documents\finalTiki
+    ports:
+      - "3000:3000"
